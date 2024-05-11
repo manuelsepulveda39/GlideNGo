@@ -1,0 +1,47 @@
+.frame {
+    background-color: #4803f5;
+    display: flex;
+    flex-direction: column; /* Cambia la dirección del flexbox a columna */
+    justify-content: center;
+    align-items: center; /* Centra los elementos horizontal y verticalmente */
+    width: 100%;
+    height: 100vh; /* Establece la altura al 100% de la ventana */
+  }
+  
+  .frame .overlap-group-wrapper {
+    background-color: #d0e610;
+  }
+  
+  .logo2 {
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+  }
+  
+  .frame .rectangle {
+    background-color: #e80707;
+    height: 362px;
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+  }
+  
+  .frame .text-wrapper {
+    color: #c6c6c6;
+    font-family: "Archivo Black", Helvetica;
+    font-size: 64px;
+    font-weight: 400;
+  }
+  
+  .frame .logoapp,
+  .frame .polygon {
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+  }
+  
+  .frame .div {
+    color: #c6c6c6;
+    font-family: "Archivo Black", Helvetica;
+    font-size: 64px;
+    font-weight: 400;
+    text-align: center; /* Alinea el texto al centro */
+  }
+
+  
